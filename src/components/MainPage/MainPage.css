@@ -1,0 +1,61 @@
+.navbar_component{
+    width: 100vw;
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+}
+.navbar_logo{
+    background: url('https://ik.imagekit.io/azclone/amazon-image/sprite_350x.png?updatedAt=1707846573109') no-repeat -9px -50px;
+    margin: 18px;
+
+	width: 98px;
+	height: 31px;
+}
+.navbar_locator{
+    display: flex;
+    margin: 20px;
+}
+.navbar_map_logo{
+    background: url('https://ik.imagekit.io/azclone/amazon-image/sprite_350x.png?updatedAt=1707846573109') no-repeat -70px -305px;     /*use of CDN imagekit and spitecow*/
+	width: 19px;
+	height: 22px;
+}
+
+.navbar_location{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5px;
+    
+}
+.navbar_search{
+    margin-top: 8px;
+    display: flex;
+}
+.navbar_search_input{
+    width: 640px;
+    height: 40px;
+
+}
+.navbar_search_icon{
+    background: url('https://ik.imagekit.io/azclone/amazon-image/sprite_350x.png?updatedAt=1707846573109') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+    margin: 11px;
+    
+}
+
+.navbar_search_icon_div{
+    background-color: darkgoldenrod;
+    height: 45px;
+    width: 45px;
+    border-radius: 0px 5px 5px 0px;
+   
+}
+
+.navbar_search_select{
+    height: 45px;
+    width: 60px;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+}
